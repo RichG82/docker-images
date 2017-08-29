@@ -25,7 +25,10 @@ RUN    apt-get update && apt-get install -y \
         openssh-server \
         python \ 
         python-pip \
-        python-mysqldb
+        python-mysqldb \
+        r-base \
+        r-base-dev \ 
+        nano
 
 RUN    pip install pynmea2
 
